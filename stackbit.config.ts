@@ -4,7 +4,7 @@ import { defineStackbitConfig } from '@stackbit/types';
 export default defineStackbitConfig({
   stackbitVersion: '~0.6.0',
   ssgName: 'nextjs',
-  nodeVersion: '16',
+  nodeVersion: '18.20.2',
   contentSources: [
     new ContentfulContentSource({
       spaceId: process.env.CONTENTFUL_SPACE_ID,
