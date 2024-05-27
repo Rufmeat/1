@@ -1,6 +1,7 @@
-import { ContentfulContentSource } from '@stackbit/cms-contentful'
+import { ContentfulContentSource } from '@stackbit/cms-contentful';
+import { defineStackbitConfig } from '@stackbit/types';
 
-export default {
+export default defineStackbitConfig({
   stackbitVersion: '~0.6.0',
   ssgName: 'nextjs',
   nodeVersion: '16',
@@ -15,4 +16,5 @@ export default {
   models: {
     page: { type: 'page', urlPath: '/{slug}' },
   },
+}
 }
