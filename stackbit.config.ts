@@ -17,4 +17,3 @@ export default defineStackbitConfig({
     page: { type: 'page', urlPath: '/{slug}' },
   },
 }
-}
